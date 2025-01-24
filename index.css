@@ -1,62 +1,57 @@
-$background_color : #141619;
-$font_color : #ffffff;
-
-.body{
-    background: $background_color;
-    color: $font_color;
-    font-family: "Inter", serif;
+.body {
+  background: #141619;
+  color: #ffffff;
+  font-family: "Inter", serif;
 }
 
 .button {
   margin: 10px;
-  color: $font_color;
-  border: 1px solid $font_color;
-
+  color: #ffffff;
+  border: 1px solid #ffffff;
 }
+
 .navbar {
   padding: 15px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  color: $font_color;
+  color: #ffffff;
   font-size: 19px;
-  background: rgba(0, 0, 0, 0.6); 
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); 
+  background: rgba(0, 0, 0, 0.6);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
   backdrop-filter: blur(10px);
   position: fixed;
   width: 100vw;
-  
-  .title {
-    cursor: pointer;
-    font-size: 22px;
-    font-weight: bold;
-  }
 }
+.navbar .title {
+  cursor: pointer;
+  font-size: 22px;
+  font-weight: bold;
+}
+
 .nav-items {
-    display: flex;
-    flex-direction: row;
-    font-weight: bold;
-    .nav-item {
-      margin: 0 10px;
-      cursor: pointer;
-      transition:  0.3s ease;
-    
-        &:hover {
-          color: bisque;
-        }
-    }
-
+  display: flex;
+  flex-direction: row;
+  font-weight: bold;
 }
-
+.nav-items .nav-item {
+  margin: 0 10px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+.nav-items .nav-item:hover {
+  color: bisque;
+}
 
 .cover_page {
   height: 100vh; /* Full viewport height */
   width: 100%; /* Full viewport width */
-  background-image: url('./assets/cover_page.png'); /* Replace with your image path */
+  background-image: url("./assets/cover_page.png"); /* Replace with your image path */
   background-size: cover; /* Ensure the image covers the entire area */
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Prevent tiling */
 }
+
 .cover_content {
   height: 100%;
   width: 100%; /* Full viewport width */
@@ -68,9 +63,10 @@ $font_color : #ffffff;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Add shadow for readability */
   font-family: "Inter", sans-serif;
   text-align: center;
-
-  h2 {
-    font-size: 42px;
-    text-decoration: bold;
-  }
 }
+.cover_content h2 {
+  font-size: 42px;
+  text-decoration: bold;
+}
+
+/*# sourceMappingURL=index.css.map */
