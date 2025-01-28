@@ -96,3 +96,11 @@ $font_color : #ffffff;
   align-items: center;
   color: $font_color;
 }
+.container-satellite {
+  @extend .container-galaxy;
+  flex-direction: column;
+  
+  h4 {
+    margin-bottom: 25px;
+  }
+}

@@ -83,7 +83,7 @@
   border-radius: 5px;
 }
 
-.container-galaxy {
+.container-galaxy, .container-satellite {
   height: 100%;
   width: 80%;
   margin: 0 auto;
@@ -91,6 +91,13 @@
   justify-content: center;
   align-items: center;
   color: #ffffff;
+}
+
+.container-satellite {
+  flex-direction: column;
+}
+.container-satellite h4 {
+  margin-bottom: 25px;
 }
 
 /*# sourceMappingURL=index.css.map */
