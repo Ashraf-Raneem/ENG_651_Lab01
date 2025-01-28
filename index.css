@@ -69,4 +69,28 @@
   text-decoration: bold;
 }
 
+.bg-cm {
+  height: 100vh; /* Full viewport height */
+  width: 100%; /* Full viewport width */
+  background-image: url("./assets/bg_common.png"); /* Replace with your image path */
+  background-size: cover; /* Ensure the image covers the entire area */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Prevent tiling */
+}
+
+.cr-up {
+  border: 1px solid #ffffff;
+  border-radius: 5px;
+}
+
+.container-galaxy {
+  height: 100%;
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+}
+
 /*# sourceMappingURL=index.css.map */
